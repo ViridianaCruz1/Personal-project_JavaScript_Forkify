@@ -11,13 +11,15 @@ A través del consumo de la **API pública de Forkify**, el usuario puede realiz
 
 ## 🖼️ Vista Previa de la Aplicación
 
-![Vista de la app](./img/vista.png)
+![Vista de la app](./src/img/vista.png)
 
 ---
 
 ## ⚙️ Estructura del Proyecto
 
 El proyecto está compuesto por diferentes módulos, organizados de acuerdo con el patrón **MVC**:
+El proyecto está compuesto por diferentes módulos, organizados de acuerdo con el patrón **MVC**:
+
 src/
 │
 ├── js/
@@ -25,17 +27,17 @@ src/
 │ ├── model.js # Maneja el estado global y las peticiones a la API
 │ ├── config.js # Configuraciones globales (API URL, API Key, etc.)
 │ ├── helpers.js # Funciones auxiliares para fetch y control de errores
-│ │
-│ └── views/ # Carpeta con las vistas del proyecto
-│ ├── recipeView.js
-│ ├── searchView.js
-│ ├── resultsView.js
-│ ├── paginationView.js
-│ ├── bookmarksView.js
-│ └── addRecipeView.js
 │
-├── index.html
-└── package.json
+└── views/ # Carpeta con las vistas del proyecto
+├── recipeView.js
+├── searchView.js
+├── resultsView.js
+├── paginationView.js
+├── bookmarksView.js
+└── addRecipeView.js
+
+index.html
+package.json
 
 ---
 
@@ -75,11 +77,22 @@ Estos polyfills garantizan compatibilidad con navegadores antiguos y permiten el
 🚀 Ejecución del Proyecto
 
 1. Instalar dependencias
-   npm install
+
+```bash
+npm install
+```
+
 2. Iniciar el servidor de desarrollo con Parcel
-   npm run start
+
+```bash
+npm run start
+```
+
 3. Abrir en el navegador
-   http://localhost:1234
+
+```bash
+http://localhost:1234
+```
 
 En el archivo config.js debe definirse una API Key válida para el correcto funcionamiento del proyecto:
 
