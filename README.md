@@ -20,6 +20,7 @@ A través del consumo de la **API pública de Forkify**, el usuario puede realiz
 El proyecto está compuesto por diferentes módulos, organizados de acuerdo con el patrón **MVC**:
 El proyecto está compuesto por diferentes módulos, organizados de acuerdo con el patrón **MVC**:
 
+```bash
 src/
 │
 ├── js/
@@ -35,9 +36,9 @@ src/
 ├── paginationView.js
 ├── bookmarksView.js
 └── addRecipeView.js
-
 index.html
 package.json
+```
 
 ---
 
